@@ -1,0 +1,38 @@
+.header {
+	margin-right: 450px;
+	margin-left: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo {
+	width: 122px;
+	height: 95px;
+
+}
+
+.header-logo-l {
+	margin-top: 15px ;
+}
+
+
+
+.header-nav {
+	margin-top: 25px;
+	display: flex;
+
+}
+
+.header-nav-link {
+	color: var(--color-white);
+	text-decoration: none;
+	margin: 20px;
+	font-family: var(--font-family-b);
+}
+
+.header-nav-link:hover {
+	color: #D3D3D3;
+	transition: var(--animation);
+}
+
+

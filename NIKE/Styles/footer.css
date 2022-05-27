@@ -1,0 +1,48 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+
+.footer-list {
+	color: var(--color-white);
+	
+}
+
+.footer-list-link li,
+.footer-list li {
+	list-style-type: none;
+	font-family: var(--font-family-m);
+	margin-bottom: 10px;
+}
+
+.footer-list-link {
+	color: var(--color-white);
+}
+
+.footer-list-link a {
+	color: var(--color-pink);
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.footer-logo {
+	margin-right: 30px;
+	width: 50px;
+	height: 50px;
+	padding: 6px;
+	background: url('../Images/background/gradient.svg');
+	background-size: 99%;
+	border-radius: 16px ;
+	border: none;
+}
+
+.footer-logo:last-child {
+	margin-right: 0;
+}
+
+.img-end {
+	width: 100%;
+}

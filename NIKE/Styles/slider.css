@@ -1,0 +1,53 @@
+.slider {
+	justify-content: center;
+	display: flex;
+	width: 1302px;
+	height: 400px;
+	margin-top: 100px;
+	margin-left: 18%;
+
+}
+
+.slider-item {
+	display: flex;
+	flex-direction: column;
+	margin-right: 90px;
+	justify-content: space-between;
+	background: url('../Images/background/gradient.svg');
+	border-radius: 50px;
+}
+
+.slider-text {
+	color: var(--color-white);
+	font-size: 30px;
+	font-family: var(--font-family-m);
+	text-align: center;
+}
+
+.slider-price {
+	text-align: center;
+	color: var(--color-white);
+	font-size: 24px;
+	font-family: var(--font-family-m);
+	padding-bottom: 10px;
+}
+
+.rounds {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.round1,
+.round2 {
+	width: 10px;
+	height: 10px;
+	padding: 6px;
+	margin: 10px;
+	background: var(--color-pink);
+	border-radius: 999px;
+}
+
+.round2{
+	background: var(--color-purple);
+}
